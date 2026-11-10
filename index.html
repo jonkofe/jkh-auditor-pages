@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jkh Auditor — Контроль расходов ЖКХ</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+      background: #f5f7fb;
+      color: #243047;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 36px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 6px 30px #15233b12;
+    }
+    h1 { color: #1764b5; }
+    h2 { margin-top: 28px; }
+    a { color: #1764b5; }
+    footer {
+      margin-top: 36px;
+      padding-top: 18px;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+    }
+    @media (max-width: 800px) {
+      main { margin: 16px; padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Jkh Auditor</h1>
+  <p><strong>Персональная система анализа расходов
+  на жилищно-коммунальные услуги.</strong></p>
+
+  <h2>О приложении</h2>
+  <p>
+    Jkh Auditor — частное некоммерческое приложение
+    для автоматизированного получения и анализа
+    электронных квитанций ЖКХ.
+  </p>
+  <p>
+    Приложение помогает сравнивать ежемесячные
+    начисления, тарифы, потребление коммунальных
+    ресурсов и перерасчёты.
+  </p>
+
+  <h2>Интеграция с Gmail</h2>
+  <p>
+    Для поиска электронных платёжных документов
+    приложение использует Google Gmail API
+    с разрешением gmail.readonly.
+  </p>
+  <p>
+    Доступ используется для чтения сообщений,
+    относящихся к получению квитанций ЖКХ.
+    Приложение не отправляет, не изменяет
+    и не удаляет письма.
+  </p>
+
+  <h2>Обработка данных</h2>
+  <p>
+    Полученные PDF-документы и результаты их анализа
+    обрабатываются и хранятся на частном сервере
+    владельца приложения.
+  </p>
+  <p>
+    Данные не размещаются на этом публичном сайте.
+    Платёжные операции приложение не выполняет.
+  </p>
+
+  <h2>Конфиденциальность</h2>
+  <p>
+    Подробнее о доступе к Gmail, хранении и удалении
+    данных:
+    <a href="privacy.html">Политика конфиденциальности</a>.
+  </p>
+
+  <footer>
+    <p>Jkh Auditor — личный некоммерческий проект.</p>
+    <p>Контакт: <a href="mailto:jonkofe@gmail.com">
+    jonkofe@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
